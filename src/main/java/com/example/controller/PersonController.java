@@ -17,10 +17,10 @@ import java.util.Map;
 //@RequestMapping("/people")
 public class PersonController {
 
-    @Autowired
+//    @Autowired
     private PersonService personService;
 
-    @RequestMapping("/")
+//    @RequestMapping("/")
     public String listPeople(Map<String, Object> map) {
 
         map.put("person", new Person());

@@ -15,7 +15,7 @@ import com.example.service.ResultService;
 @Controller
 public class ResultController {
     
-  @Autowired
+//  @Autowired
   private ResultService resultService;
   
   @RequestMapping("/results")
